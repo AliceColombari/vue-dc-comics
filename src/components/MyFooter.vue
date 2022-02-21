@@ -119,6 +119,7 @@ export default {
             background-repeat: no-repeat;
             background-size: cover;
 
+
             // link
             .link {
                 display: flex;

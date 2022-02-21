@@ -57,14 +57,13 @@ main {
     .debug {
       display: flex;
       align-items: center;
-      height: 100px;
       background-color: $mainBg;
 
       .debug-text {
         color: $light;
         width: 80%;
         max-width: 1200px;
-        margin: auto;
+        margin: $verticalSpace auto;
       }
     }
 
@@ -83,7 +82,7 @@ main {
         .single-icon-blue{
             display: flex;
             align-items: center;
-            margin: 30px auto;
+            margin: $verticalSpace auto;
 
             img {
                 height: 40px;
