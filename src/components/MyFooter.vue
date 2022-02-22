@@ -68,10 +68,12 @@
                     <!-- fine sites -->
                 </div>
                 <!-- fine link -->
-
-            <img class="logo-right" src="../assets/img/dc-logo-bg.png" alt="">
-        </div>
+            </div>
         <!-- fine row -->
+
+            <div class="container-logo-right">
+                <img class="logo-right" src="../assets/img/dc-logo-bg.png" alt="">
+            </div>
              
 
          </div>
@@ -119,6 +121,13 @@ export default {
             background-repeat: no-repeat;
             background-size: cover;
 
+            overflow: hidden;
+            height: 400px;
+            
+            .container {
+                position: relative;
+            }
+
 
             // link
             .link {
@@ -163,9 +172,16 @@ export default {
             }
             // fine link
 
-            .logo-right {
-                height: 400px;
+            .container-logo-right {
+                position: absolute;
+                top: -25%;
+                right: 0;
+
+                .logo-right {
+                height: 500px;
+                }   
             }
+
         }
         // fine footer container
 
