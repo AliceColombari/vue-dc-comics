@@ -201,6 +201,10 @@ export default {
                     margin: 20px 0px;
                     font-size: 16px;
                     cursor: pointer;
+
+                    &:hover {
+                        border: 2px solid $primaryColorHover;
+                    }
                 }
 
                 .social {
@@ -209,6 +213,10 @@ export default {
 
                     img {
                         margin: 0px 10px;
+
+                        &:hover {
+                             -webkit-filter: contrast(175%) brightness(3%);
+                        }
                     }
 
                     a {
@@ -216,6 +224,10 @@ export default {
                         color: $primaryColor;
                         font-weight: bold;
                         margin-right: 5px;
+
+                        &:hover {
+                        color: $primaryColorHover;
+                    }
                     }
                 }
             }

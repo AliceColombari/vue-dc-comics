@@ -3,6 +3,7 @@
     <MyHeader/>
     <MyMain/>
     <MyFooter/>
+    <SectionCurrentSeries/>
   </div>
 </template>
 
@@ -10,12 +11,15 @@
 import MyHeader from './components/MyHeader.vue';
 import MyMain from './components/MyMain.vue';
 import MyFooter from './components/MyFooter.vue';
+import SectionCurrentSeries from './components/SectionCurrentSeries.vue';
+
 export default {
   name: 'App',
   components: {
     MyHeader,
     MyMain,
-    MyFooter
+    MyFooter,
+    SectionCurrentSeries
   }
 }
 </script>
